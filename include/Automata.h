@@ -1,5 +1,6 @@
-#ifndef AUTOMATA_H
-#define AUTOMATA_H
+//"Copyright 2025 Owner"
+#ifndef INCLUDE_AUTOMATA_H
+#define INCLUDE_AUTOMATA_H
 
 #include <vector>
 #include <string>
@@ -19,7 +20,7 @@ class Automata {
     std::vector<int> price;
     STATES state;
 
-public:
+ public:
     Automata();
     void on();
     void off();
@@ -32,4 +33,4 @@ public:
     void cook();
     void finish();
 };
-#endif // !AUTOMATA_H
+#endif // INCLUDE_AUTOMATA_H
