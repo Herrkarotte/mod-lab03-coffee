@@ -33,7 +33,7 @@ TEST(task, test5) {
     Automata automata;
     automata.on();
     automata.coin(50);
-    automata.choice(3);
+    automata.choice(2);
     automata.check();
     ASSERT_EQ(automata.getState(), CHECK);
 }
