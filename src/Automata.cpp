@@ -26,7 +26,7 @@ void Automata::coin(int coin) {
     if (state == WAIT || state == ACCEPT) {
         cash += coin;
         state = ACCEPT;
-        std::cout << "Внесено: " << coin 
+        std::cout << "Внесено: " << coin
             << " Текущий баланс: "
             << cash << std::endl;
     }
@@ -34,8 +34,8 @@ void Automata::coin(int coin) {
 void Automata::getMenu() {
     std::cout << "Меню:" << std::endl;
     for (int i = 0; i < menu.size(); i++) {
-        std::cout << menu[i] << " - " 
-            << price[i] 
+        std::cout << menu[i] << " - "
+            << price[i]
             << std::endl;
     }
 }

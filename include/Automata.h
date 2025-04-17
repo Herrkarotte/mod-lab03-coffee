@@ -1,6 +1,6 @@
 //"Copyright 2025 Owner"
-#ifndef INCLUDE_AUTOMATA_H
-#define INCLUDE_AUTOMATA_H
+#ifndef INCLUDE_AUTOMATA_H_
+#define INCLUDE_AUTOMATA_H_
 
 #include <vector>
 #include <string>
@@ -33,4 +33,4 @@ class Automata {
     void cook();
     void finish();
 };
-#endif // INCLUDE_AUTOMATA_H
+#endif // INCLUDE_AUTOMATA_H_
