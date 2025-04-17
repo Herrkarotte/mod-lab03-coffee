@@ -72,7 +72,7 @@ TEST(task, test9) {
     Automata automata;
     automata.on();
     automata.coin(100);
-    automata.choice(3);
+    automata.choice(2);
     automata.check();
     automata.cook();
     automata.finish();
